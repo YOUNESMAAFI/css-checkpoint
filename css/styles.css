@@ -1,0 +1,271 @@
+/* Color palet https://colorhunt.co/palette/180289 */
+@media only screen and (max-width: 700px) {
+  nav {
+    position: relative;
+    top: 70px;
+    padding-right: 10px;
+    background-color: rgb(20, 40, 80);
+    width: 100%;
+  }
+
+  nav ul li a {
+    margin: auto;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #dae1e7;
+  width: 100%;
+  margin: 0;
+}
+
+/* Header + navigation  */
+header {
+  display: flex;
+  background-color: rgb(20, 40, 80);
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #dae1e7;
+  margin: 10px;
+}
+
+h1 {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  justify-content: flex-end;
+  color: #dae1e7;
+}
+
+nav ul {
+  display: inline;
+  justify-content: flex-end;
+}
+
+nav ul li a {
+  color: #dae1e7;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+nav ul li a:active {
+  text-decoration: underline;
+}
+
+/* Home Section  */
+#home {
+  text-align: center;
+  min-height: 100%;
+  background: linear-gradient(0deg,
+      rgba(243, 227, 236, 0.61),
+      rgba(20, 40, 80, 0.8)),
+    url(/res/coding.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -20px;
+}
+
+.main-title {
+  font-family: "Sen", sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 200px;
+  color: rgb(218, 225, 231);
+}
+
+.sub-title {
+  margin: 0;
+  color: rgb(218, 225, 231);
+}
+
+/* About Section  */
+#about {
+  background-color: #00909e;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  align-items: center;
+  margin: auto;
+}
+
+.section-title {
+  background-color: #00909e;
+  font-family: "Sen", sans-serif;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 0;
+  color: rgb(20, 40, 80);
+  text-align: center;
+}
+
+.younes-img {
+  border-radius: 20px;
+}
+
+.description {
+  width: 50%;
+  text-align: center;
+  font-size: 1.2 rem;
+}
+
+/* My Work Section  */
+#work {
+  padding-bottom: 2rem;
+}
+
+.section-title2 {
+  font-family: "Sen", sans-serif;
+  font-size: 2rem;
+  padding: 2rem;
+  color: rgb(20, 40, 80);
+  text-align: center;
+}
+
+.architecture {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  background: #27496d;
+  max-width: 300px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: #dae1e7;
+}
+
+/* Section resume  */
+#resume {
+  background-color: #00909e;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.img1 {
+  width: 200px;
+  margin: auto;
+  padding: 2em;
+}
+
+.mygrid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  justify-items: center;
+  gap: 1em;
+}
+
+.grid-title1 {
+  grid-row: 1/3;
+}
+
+.item1 {
+  justify-self: start;
+}
+
+.mygrid2 {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  gap: 1em;
+}
+
+.grid-title2 {
+  grid-row: 1/3;
+}
+
+.date {
+  justify-self: start;
+}
+
+.work {
+  justify-self: start;
+}
+
+/* Contact me Section  */
+#contact {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contact-from {
+  border: 3px solid #27496d;
+  border-radius: 20px;
+  max-width: 50%;
+  margin: auto;
+  padding: 1em;
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  padding: 0.5em;
+}
+
+textarea {
+  border-radius: 20px;
+  max-width: 80%;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 100px;
+  color: #dae1e7;
+  background-color: #27496d;
+}
+
+/* Footer  */
+footer {
+  background-color: #27496d;
+  padding: 2rem;
+  text-align: center;
+  color: #dae1e7;
+}
+
+.icon {
+  color: #dae1e7;
+  font-size: 2em;
+  margin: 0 1em;
+}
