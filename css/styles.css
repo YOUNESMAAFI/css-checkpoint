@@ -79,7 +79,7 @@ nav ul li a:active {
   background: linear-gradient(0deg,
       rgba(243, 227, 236, 0.61),
       rgba(20, 40, 80, 0.8)),
-    url(/res/coding.jpg);
+    url(res/coding.jpg);
   height: 600px;
   background-repeat: no-repeat;
   background-attachment: fixed;
